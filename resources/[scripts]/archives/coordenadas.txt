@@ -1,0 +1,3 @@
+Coords = vec3(1704.934082, 2521.132324, 44.541615), Heading = 295.00003051758, Hash = 811169045, Disabled = false, Lock = true, Distance = 1.75
+Coords = vec3(-2088.755615, -327.398804, 12.160918), Heading = 84.000015258789, Hash = -2007231801, Disabled = false, Lock = true, Distance = 1.75
+Coords = vec3(911.650024, -975.090027, 39.500000), Heading = 277.79998779297, Hash = 1975732938, Disabled = false, Lock = true, Distance = 1.75

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Identidade</title>
+</head>
+
+<body>
+	<div id="app" class="hidden">
+		<div class="card">
+			<button id="btn-close" class="btn-close" title="Fechar">&#x2715;</button>
+
+			<!-- Esquerda: avatar + org -->
+			<div class="left">
+				<div class="avatar-wrap">
+					<img id="avatar" class="avatar" src="" alt="Avatar" />
+				</div>
+				<span class="org">Secretaria de Justiça</span>
+			</div>
+
+			<!-- Direita: campos -->
+			<div class="right">
+				<div class="field"><span class="label">Nome:</span><span id="name" class="value"></span></div>
+				<div class="field"><span class="label">Passaporte:</span><span id="passport" class="value"></span></div>
+				<div class="field"><span class="label">Gênero:</span><span id="gender" class="value"></span></div>
+				<div class="field"><span class="label">Diamantes:</span><span id="diamonds" class="value"></span></div>
+				<div class="field"><span class="label">Emprego:</span><span id="job" class="value"></span></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
